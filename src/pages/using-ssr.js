@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const UsingSSR = ({ serverData }) => {
+  console.log(serverData)
   return (
     <Layout>
       <Seo title="Using SSR" />
