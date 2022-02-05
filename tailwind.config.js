@@ -8,7 +8,7 @@ module.exports = {
     extend: {},
     colors: {
       primary: {
-        100: '#feeaef',
+        100: '#fceef1',
         200: '#f9abbf',
         300: '#f6829e',
         400: '#f3587e',
@@ -251,7 +251,7 @@ module.exports = {
       current: 'currentColor',
     },
     fontFamily: {
-      'primary': ['Poppins', ...defaultTheme.fontFamily.sans]
+      'primary': ['Inter', 'sans-serif']
     },
     container: {
       center: true,

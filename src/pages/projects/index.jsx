@@ -1,15 +1,14 @@
-import * as React from "react"
-import Layout from "../components/layout/layout"
+import React from "react"
+import Layout from "../../components/layout/layout"
 import { graphql } from "gatsby"
-import Projects from '../components/Projects'
-import Services from '../components/Services'
+import Projects from '../../components/Projects'
 
-const IndexPage = ({data}) => {
+function Index({data}) {
   const { allMdx: { nodes:projects } } = data;
+  console.log(projects)
   return (
     <Layout>
-      <Services/>
-      <Projects title="recently projects" projects={projects}/>
+      <Projects projects={projects} title="projects"/>
       <h1 className="text-3xl font-bold bg-primary-500 text-white p-4">
         Hello world!
       </h1>
@@ -23,7 +22,7 @@ const IndexPage = ({data}) => {
 export const query = graphql`
   {
     allMdx(
-      filter: {frontmatter: {type: {eq: "project"}, feature: {eq: true}}}
+      filter: {frontmatter: {type: {eq: "project"}}}
       sort: {fields: frontmatter___date, order: DESC}
     ) {
       nodes {
@@ -46,4 +45,4 @@ export const query = graphql`
   }
 `
 
-export default IndexPage
+export default Index

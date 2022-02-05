@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -16,4 +17,44 @@
     .section-center{
         width: 95vw;
     }
+}
+.section{
+    padding: 3rem 0;
+}
+@media screen and (min-width: 900px) {
+    .section{
+        padding: 5rem 0;
+    }
+}
+.underline {
+    width: 5rem;
+    height: 0.25rem;
+    margin-top: .75rem;
+    background: #f02e5e;
+    margin-right: auto;
+    margin-left: auto;
+}
+.icon-project{
+    height: 60px;
+    width: 60px;
+}
+
+.border-6{
+    border-width: 6px;
+}
+
+.letter-1{
+    letter-spacing: 0.25rem;
+}
+
+.text-40{
+    font-size: 40px;
+}
+
+.project{
+    transition: all 0.3s linear;
+}
+.project:hover{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    transform: translateY(-5px);
 }
