@@ -1,6 +1,7 @@
 import React from "react"
 import Project from "./Project"
 import TitleSection from "../layout/TitleSection"
+import { Link } from "gatsby"
 
 function Index({title, projects}) {
   return (
@@ -15,7 +16,7 @@ function Index({title, projects}) {
           }
         </div>
         <div className="mt-12">
-          <a href="#" className="bg-primary-500 rounded-md px-8 py-3 font-m text-lg text-white letter-1 uppercase hover:bg-primary-600 transition ease-in-out delay-150">More projects</a>
+          <Link to="/projects" className="bg-primary-500 rounded-md px-8 py-3 font-m text-lg text-white letter-1 uppercase hover:bg-primary-600 transition ease-in-out delay-150">More projects</Link>
         </div>
       </div>
     </section>

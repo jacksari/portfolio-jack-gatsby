@@ -22,7 +22,7 @@ function Project({project}) {
         <div className="flex-1 flex items-center justify-center">
           <h4 className="text-xl text-gray-700 font-bold		 tracking-widest ">{ title }</h4>
         </div>
-        <div className="flex items-center justify-center mt-4">
+        <div className="flex items-center justify-center mt-4 mx-4">
           {
             technologies.map((technology, index) => (
               <p className="mx-2 bg-gray-100 px-2 py-1 font-normal text-gray-700 rounded text-sm" key={index}>{ technology }</p>

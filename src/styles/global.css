@@ -46,6 +46,9 @@
 .letter-1{
     letter-spacing: 0.25rem;
 }
+.letter-2{
+    letter-spacing: 0.1rem;
+}
 
 .text-40{
     font-size: 40px;
@@ -57,4 +60,8 @@
 .project:hover{
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
     transform: translateY(-5px);
+}
+.underline-services {
+    width: 3rem;
+    height: 0.112rem;
 }

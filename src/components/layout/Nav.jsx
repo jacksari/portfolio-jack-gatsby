@@ -20,8 +20,9 @@ function Nav() {
         </div>
         <div className="hidden md:block">
           <Link className="font-bold text-primary-500 mx-3" to="/">Home</Link>
-          <Link className="font-bold text-gray-600 mx-3" to="/">Home</Link>
-          <Link className="font-bold text-gray-600 mx-3" to="/">Home</Link>
+          <Link className="font-bold text-gray-600 mx-3" to="/projects">Projects</Link>
+          <Link className="font-bold text-gray-600 mx-3" to="/contact">Contact</Link>
+          <Link className="font-bold text-gray-600 mx-3" to="/about">About</Link>
         </div>
         <div className="md:hidden" id="nav-toggle">
           <FaBars className="cursor-pointer" color={colors.primary} size={'2rem'}/>
