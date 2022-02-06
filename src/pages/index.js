@@ -6,11 +6,13 @@ import Services from '../components/Services'
 import Experience from "../components/home/Experience"
 import Technologies from "../components/home/Technologies"
 import HeaderHome from "../components/home/HeaderHome"
+import Seo from "../components/layout/seo"
 
 const IndexPage = ({data}) => {
   const { allMdx: { nodes:projects } } = data;
   return (
     <Layout>
+      <Seo page="home"/>
       <HeaderHome/>
       <Services/>
       <Experience/>

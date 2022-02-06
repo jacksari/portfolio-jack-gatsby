@@ -1,9 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Jack Sari Frontend Developer`,
+    description: `This is our home page portafolio JackSari`,
+    author: `@jacksari`,
+    siteUrl: `https://www.jacksari.com/`,
+    twitterUsername: "@ssari1212",
+    image: "https://res.cloudinary.com/mikunaalli/image/upload/v1644156185/Screenshot_10_ufpdwk.png",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,15 +22,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Jack Sari`,
+        short_name: `JackSari`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#f02e5e`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo3.png`, // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-postcss',
@@ -62,7 +64,7 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-smoothscroll`
+    `gatsby-plugin-smoothscroll`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
