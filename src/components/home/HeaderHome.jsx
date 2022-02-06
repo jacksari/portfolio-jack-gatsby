@@ -1,5 +1,5 @@
 import React from "react"
-import { FaLinkedin, FaEnvelope, FaGithubSquare, FaTwitterSquare } from "react-icons/fa"
+import { FaLinkedin, FaEnvelope, FaGithubSquare, FaTwitterSquare, FaWhatsapp } from "react-icons/fa"
 import jack from '../../images/jack.png'
 import { socialLinks } from "../../jack/social-links"
 import { Link } from "gatsby"
@@ -34,6 +34,9 @@ function HeaderHome() {
               </a>
               <a href={socialLinks.twitter} rel="noreferrer" target="_blank" className="mr-8">
                 <FaTwitterSquare className="text-black hover:primary-500" size="2rem"/>
+              </a>
+              <a href="https://wa.link/qvoczn" rel="noreferrer" target="_blank" className="mr-8">
+                <FaWhatsapp className="text-black hover:primary-500" size="2rem"/>
               </a>
             </div>
           </div>

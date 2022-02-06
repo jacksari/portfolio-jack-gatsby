@@ -2,7 +2,7 @@ export const experiences = [
   {
     company: 'Dened',
     position: 'CTO',
-    date: 'December 2015 - Present',
+    date: 'ABRIL 2021 - ACTUALIDAD',
     items: [
       'Platform migration, from WordPress to a MERN stack.',
       'Implement API for your consumptions of the frontend projects.',
