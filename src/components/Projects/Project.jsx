@@ -1,19 +1,17 @@
 import React from "react"
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa"
-import { Link } from "gatsby"
-
 
 function Project({project}) {
-  const { demo, git, image, slug, technologies, title } = project.frontmatter
+  const { demo, git, image, technologies, title } = project.frontmatter
   // const { allMdx: { nodes:projects } } = data;
   return (
     <article className="shadow bg-white rounded-lg overflow-hidden flex flex-col justify-between cursor-pointer project">
       <div className="relative h-48 bg-green-100">
-        <GatsbyImage alt={title} image={getImage(image)} className="h-full w-full object-cover"/>
+        <GatsbyImage alt={title} image={getImage(image)} className="h-full w-full object-cover z-0"/>
 
           <div className="border-6 border-white absolute b-0 left-1/2 bg-primary-100 rounded-full icon-project flex items-center justify-center -translate-y-1/2 -translate-x-1/2">
-            <a target="_blank" href={ demo }>
+            <a rel="noreferrer" target="_blank" href={ demo }>
               <FaExternalLinkAlt className="text-primary-500" size="1.5rem"/>
             </a>
           </div>
@@ -31,11 +29,11 @@ function Project({project}) {
         </div>
       </div>
       <div className="flex items-center justify-between p-4 bg-primary-100">
-        <a target="_blank" href={git}>
+        <a rel="noreferrer" target="_blank" href={git}>
           <FaGithub className="text-primary-500" size="1.2rem"/>
         </a>
         <p className="text-primary-500">Source code</p>
-        <a target="_blank" className="text-primary-500 font-medium" href={git}>More info</a>
+        <a rel="noreferrer" target="_blank" className="text-primary-500 font-medium" href={git}>More info</a>
       </div>
     </article>
   )

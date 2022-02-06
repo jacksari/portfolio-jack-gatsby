@@ -2,8 +2,7 @@ import React from "react"
 import { FaCode } from "react-icons/fa";
 
 function Service({service}) {
-  console.log(service)
-  const { title, description, icon } = service;
+  const { title, description } = service;
   return (
     <article className="flex flex-col items-center bg-white p-12 rounded-lg hover:bg-primary-500 group transition duration-300 ease-in-out">
       <FaCode className="text-gray-700 group-hover:text-white" size="2rem"/>

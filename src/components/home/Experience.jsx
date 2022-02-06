@@ -20,8 +20,8 @@ function Experience() {
               <div className="md:col-span-1 flex justify-around md:justify-start md:flex-col">
                 {
                   experiences.map((experience, index) => (
-                    <div key={index} className={`border-b-2 md:border-l-4 md:border-b-0 mb-6 ${experience.company == exp.company ? 'border-primary-500' : ''}`}>
-                      <button onClick={()=>setExp(experience)} className={`py-1 text-gray-500 text-xl text-left ${experience.company == exp.company ? 'text-primary-500' : ''}`} type="button" >
+                    <div key={index} className={`border-b-2 md:border-l-4 md:border-b-0 mb-6 ${experience.company === exp.company ? 'border-primary-500' : ''}`}>
+                      <button onClick={()=>setExp(experience)} className={`py-1 text-gray-500 text-xl text-left ${experience.company === exp.company ? 'text-primary-500' : ''}`} type="button" >
                         { experience.company }
                       </button>
                     </div>

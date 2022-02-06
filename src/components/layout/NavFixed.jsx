@@ -7,7 +7,7 @@ import { Link } from "gatsby"
 
 function Nav() {
   return (
-    <nav className="bg-white fixed w-full border-b-2 border-gray-200 z-10">
+    <nav className="bg-gray-500 w-full border-b-2 border-gray-200">
       <div className=" section-center px-2 md:px-0 py-3 flex items-center justify-between">
         <Link to="/" className="flex items-center">
           <img className="h-8 w-8 object-cover" src={logo} alt=""/>
