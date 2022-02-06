@@ -1,7 +1,7 @@
 import React from "react"
 import logo from "../../images/logo3.png";
 import { Link } from "gatsby"
-import { FaEnvelope, FaGithubSquare, FaLinkedin, FaTimesCircle, FaTwitterSquare } from "react-icons/fa"
+import { FaEnvelope, FaGithubSquare, FaLinkedin, FaTimesCircle, FaTwitterSquare, FaWhatsapp } from "react-icons/fa"
 import { socialLinks } from "../../jack/social-links"
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
@@ -51,6 +51,9 @@ function Sidebar({setToggle, toggle}) {
           </a>
           <a href={socialLinks.twitter} rel="noreferrer" target="_blank" className="">
             <FaTwitterSquare className="text-black hover:text-primary-500 transition duration-150 ease-in-out" size="2rem"/>
+          </a>
+          <a href="https://wa.link/qvoczn" rel="noreferrer" target="_blank" className="">
+            <FaWhatsapp className="text-black hover:primary-500" size="2rem"/>
           </a>
         </div>
       </div>
