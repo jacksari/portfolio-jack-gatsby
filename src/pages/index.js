@@ -12,7 +12,7 @@ const IndexPage = ({data}) => {
   const { allMdx: { nodes:projects } } = data;
   return (
     <Layout>
-      <Seo page="home"/>
+      <Seo page="Home"/>
       <HeaderHome/>
       <Services/>
       <Experience/>

@@ -3,12 +3,14 @@ import Layout from "../../components/layout/layout"
 import { graphql } from "gatsby"
 import Projects from '../../components/Projects'
 import NavFixed from "../../components/layout/NavFixed"
+import Seo from "../../components/layout/seo"
 
 function Index({data}) {
   const { allMdx: { nodes:projects } } = data;
   console.log(projects)
   return (
     <Layout>
+      <Seo page="Projects"/>
       <NavFixed/>
       <Projects projects={projects} title="projects"/>
       <h1 className="text-3xl font-bold bg-primary-500 text-white p-4">
