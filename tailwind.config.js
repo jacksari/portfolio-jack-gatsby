@@ -261,8 +261,9 @@ module.exports = {
       '3xl': '1.875rem',
       '4xl': '2.25rem',
       '5xl': '2.5rem',
-      '6xl': '4rem',
-      '7xl': '5rem',
+      '6xl': '3rem',
+      '7xl': '4rem',
+      '8xl': '5rem'
     },
     fontFamily: {
       'primary': ['Inter', 'sans-serif']

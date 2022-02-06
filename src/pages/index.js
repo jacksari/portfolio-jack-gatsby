@@ -19,8 +19,6 @@ const IndexPage = ({data}) => {
       <h1 className="text-3xl font-bold bg-primary-500 text-white p-4">
         Hello world!
       </h1>
-      <h1>Title</h1>
-      <p>Hola</p>
 
     </Layout>
   )

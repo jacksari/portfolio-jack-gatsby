@@ -8,7 +8,7 @@ function Index({title, projects}) {
     <section className="section bg-gray-50 text-center">
       <div className="section-center">
         <TitleSection title={title}/>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 mx-4 md:mx-0">
           {
             projects.map((project, index) => (
               <Project project={project} key={index}/>

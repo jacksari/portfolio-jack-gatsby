@@ -1,5 +1,5 @@
 import React from "react"
-import { FaSearch, FaBars } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import { colors } from "../../styles/colors"
 import logo from "../../images/logo3.png";
 import { Link } from "gatsby"
@@ -13,12 +13,6 @@ function Nav() {
           <img className="h-8 w-8 object-cover" src={logo} alt=""/>
             <p className="ml-1 text-gray-500 font-medium" >Jack <span>Sari</span></p>
         </Link>
-        <div className="hidden md:flex bg-gray-200 rounded-md py-2 px-3">
-          <div className="flex items-center">
-            <FaSearch className="text-gray-700" size='1rem'/>
-            <input className="bg-transparent ml-2 outline-none text-black" type="text" placeholder="Discover news, articles and more..."/>
-          </div>
-        </div>
         <div className="hidden md:block">
           <Link  className="font-bold text-gray-600 mx-3" to="/" activeClassName="active-link-nav">Home</Link>
           <Link activeClassName="active-link-nav" className="font-bold text-gray-600 mx-3" to="/projects">Projects</Link>
