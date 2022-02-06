@@ -5,7 +5,6 @@ import logo from "../../images/logo3.png";
 import { Link } from "gatsby"
 import Sidebar from "./Sidebar"
 
-
 function Nav() {
   const [toggle, setToggle] = useState(false)
   return (
@@ -22,9 +21,9 @@ function Nav() {
             <Link activeClassName="active-link-nav" className="font-bold text-gray-600 mx-3" to="/contact">Contact</Link>
             <Link activeClassName="active-link-nav" className="font-bold text-gray-600 mx-3" to="/about">About</Link>
           </div>
-          <div onClick={() => setToggle(!toggle)} className="md:hidden" id="nav-toggle">
+          <button onClick={() => setToggle(!toggle)} className="md:hidden" id="nav-toggle">
             <FaBars className="cursor-pointer" color={colors.primary} size={'2rem'}/>
-          </div>
+          </button>
         </div>
       </nav>
       <Sidebar toggle={toggle} setToggle={setToggle}/>

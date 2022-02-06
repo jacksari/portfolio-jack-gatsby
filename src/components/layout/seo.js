@@ -18,7 +18,6 @@ const Seo = ({page, desc}) => {
     }
   `)
   const {author,description,image,siteUrl,title,twitterUsername} = site.siteMetadata
-  console.log(site.siteMetadata)
 
   return <Helmet htmlAttributes={{lang:"en"}} title={`${page} | ${title}`}>
     <meta name="description" content={desc || description}/>

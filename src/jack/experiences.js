@@ -4,17 +4,30 @@ export const experiences = [
     position: 'CTO',
     date: 'December 2015 - Present',
     items: [
-      'Tote bag sartorial mlkshk air plant vinyl banjo lu',
-      'sjhshs hs hs sjs sj sj sj',
-      'jsijsijsijsi'
+      'Platform migration, from WordPress to a MERN stack.',
+      'Implement API for your consumptions of the frontend projects.',
+      'API Deployments on AWS EC2.',
+      'Implement administrative and public Web with NextJs, SASS technology.',
+      'Build components and new features required by the platform.'
+    ]
+  },
+  {
+    company: 'MiCole',
+    position: 'Full Stack Developer JavaScript',
+    date: 'NOVIEMBRE 2021 - ACTUALIDAD',
+    items: [
+      'Development of the first MVP using the MERN stack',
+      'Database design and API implementation (NestJs).',
+      'API Deployments on AWS EC2.'
     ]
   },
   {
     company: 'DooApps',
     position: 'Full Stack Web Developer',
-    date: 'December 2015 - Present',
+    date: 'JUNIO 2021 - AGOSTO 2021',
     items: [
-      'Tote bag sartorial ml banjo lu'
+      'Creation of the MVP of a crypto payment verification gateway using the MERN stack',
+      'Database design and API implementation'
     ]
   }
 ];

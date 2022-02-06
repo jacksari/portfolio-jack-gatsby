@@ -40,16 +40,16 @@ function Sidebar({setToggle, toggle}) {
 
         </div>
         <div className="mt-12 flex items-center justify-between md:justify-start">
-          <a href={socialLinks.linkedin} target="_blank" className="">
+          <a href={socialLinks.linkedin} rel="noreferrer" target="_blank" className="">
             <FaLinkedin className="text-black hover:text-primary-500 transition duration-150 ease-in-out" size="2rem"/>
           </a>
-          <a href={socialLinks.correo} target="_blank" className="">
+          <a href={socialLinks.correo} rel="noreferrer" target="_blank" className="">
             <FaEnvelope className="text-black hover:text-primary-500 transition duration-150 ease-in-out" size="2rem"/>
           </a>
-          <a href={socialLinks.github} target="_blank" className="">
+          <a href={socialLinks.github} rel="noreferrer" target="_blank" className="">
             <FaGithubSquare className="text-black hover:text-primary-500 transition duration-150 ease-in-out" size="2rem"/>
           </a>
-          <a href={socialLinks.twitter} target="_blank" className="">
+          <a href={socialLinks.twitter} rel="noreferrer" target="_blank" className="">
             <FaTwitterSquare className="text-black hover:text-primary-500 transition duration-150 ease-in-out" size="2rem"/>
           </a>
         </div>
