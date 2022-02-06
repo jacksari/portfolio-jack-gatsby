@@ -11,7 +11,7 @@ function Experience() {
 
 
   return (
-    <section className="section bg-gray-50 text-center">
+    <section id="experiences" className="section bg-gray-50 text-center">
       <div className="section-center">
         <TitleSection title={'Experience'}/>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-12">

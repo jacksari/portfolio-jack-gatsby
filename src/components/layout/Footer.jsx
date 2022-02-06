@@ -27,13 +27,13 @@ function Footer() {
         <div className="flex flex-col w-full md:w-1/2 lg:w-1/5 px-10 md:px-4 mb-6 md:mb-0">
           <h3 className="text-gray-900 text-lg font-medium mb-3">Descubre</h3>
           <Link to="/" className="text-gray-900 text-sm font-light my-2">
-            Religiosos
+            Home
           </Link>
         </div>
         <div className="flex flex-col w-full md:w-1/2 lg:w-1/5 px-10 md:px-4 mb-6 md:mb-0">
           <h3 className="text-gray-900 text-lg font-medium mb-3">Categorías</h3>
           <Link to="/" className="text-gray-900 text-sm font-light my-2">
-            Religiosos
+            React
           </Link>
         </div>
         <div className="flex flex-col w-full md:w-1/2 lg:w-1/5 px-10 md:px-4 mb-6 md:mb-0">
