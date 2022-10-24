@@ -9,7 +9,7 @@ export const tecnologies = [
   },
   {
     name: 'NextJs',
-    icon: 'https://sebastian-gomez.com/nextjs.png'
+    icon: 'https://imgs.search.brave.com/GY6V4auXkcMQ74unf-Czgs2ZbGuzfWje9qy-yJb79Yc/rs:fit:512:512:1/g:ce/aHR0cHM6Ly9zZWVr/aWNvbi5jb20vZnJl/ZS1pY29uLWRvd25s/b2FkL25leHQtanNf/MS5zdmc.svg'
   },
   {
     name: 'TailwindCSS',

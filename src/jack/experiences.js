@@ -2,7 +2,7 @@ export const experiences = [
   {
     company: 'Dened',
     position: 'CTO',
-    date: 'ABRIL 2021 - ACTUALIDAD',
+    date: 'ABRIL 2021 - ABRIL 2022',
     items: [
       'Platform migration, from WordPress to a MERN stack.',
       'Implement API for your consumptions of the frontend projects.',
@@ -14,7 +14,7 @@ export const experiences = [
   {
     company: 'MiCole',
     position: 'Full Stack Developer JavaScript',
-    date: 'NOVIEMBRE 2021 - ACTUALIDAD',
+    date: 'NOVIEMBRE 2021 - AABRIL 2022',
     items: [
       'Development of the first MVP using the MERN stack',
       'Database design and API implementation (NestJs).',
